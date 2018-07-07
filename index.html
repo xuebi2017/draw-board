@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>draw</title>
+</head>
+
+<body>
+    <canvas class="canvas" height="500" width="500"></canvas>
+    <div class="actions" id="actions">
+        <svg class="icon active" id="brush">
+            <use xlink:href="#icon-brush"></use>
+        </svg>
+        <svg class="icon" id="eraser">
+            <use xlink:href="#icon-eraser"></use>
+        </svg>
+        <svg class="icon active" id="thinLine">
+            <use xlink:href="#icon-thinLine"></use>
+        </svg>
+        <svg class="icon" id="thickLine">
+            <use xlink:href="#icon-thickLine"></use>
+        </svg>
+    </div>
+    <div class="operation">
+        <svg class="icon" id="trash">
+            <use xlink:href="#icon-trash"></use>
+        </svg>
+        <svg class="icon" id="save">
+            <use xlink:href="#icon-download"></use>
+        </svg>
+    </div>
+
+    <ul class="colors">
+        <li id="black" class="black active"></li>
+        <li id="red" class="red"></li>
+        <li id="blue" class="blue"></li>
+        <li id="green" class="green"></li>
+    </ul>
+    <script src="./main.js"></script>
+    <script src="//at.alicdn.com/t/font_736630_8l91oiv6wr2.js"></script>
+</body>
+
+</html>
