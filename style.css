@@ -42,6 +42,9 @@ li.active {
 .canvas {
     background-color:white;
     display:block;
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 
 .actions{
